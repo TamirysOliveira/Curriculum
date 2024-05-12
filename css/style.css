@@ -1,5 +1,5 @@
 
-/* Fonts */
+/* Fontes */
 @font-face {
   font-family: 'Montserrat-Regular';
   src: url(../fonts/Montserrat-Regular.ttf); }
@@ -116,14 +116,14 @@
   overflow: hidden; }
 
 /* Navigation burger end */
-.fh5co-top-banner {
+.my-top-banner {
   position: relative;
   display: flex;
   align-items: flex-end;
   background-image: url("../images/top-banner-bckg.jpg");
   background-position: center;
   background-size: cover; }
-  .fh5co-top-banner::after {
+  .my-top-banner::after {
     content: '';
     position: absolute;
     top: 0;
@@ -132,20 +132,20 @@
     height: 100%;
     background-color: #000;
     opacity: 0.9; }
-  .fh5co-top-banner .site-container {
+  .my-top-banner .site-container {
     position: relative;
     z-index: 1; }
   @media (max-width: 1600px) {
-    .fh5co-top-banner {
+    .my-top-banner {
       padding-top: 180px; } }
   @media (max-width: 1250px) {
-    .fh5co-top-banner {
+    .my-top-banner {
       padding-top: 130px; } }
   @media (max-width: 520px) {
-    .fh5co-top-banner {
+    .my-top-banner {
       padding-top: 105px; } }
   @media (min-width: 1600px) {
-    .fh5co-top-banner {
+    .my-top-banner {
       min-height: 100vh; } }
 
 .top-banner__inner {
@@ -227,14 +227,14 @@
   .brand-button:hover, .brand-button:focus {
     color: #777; }
 
-.fh5co-about-me {
+.about-me {
   position: relative;
   margin: 193px 0 199px; }
   @media (max-width: 1250px) {
-    .fh5co-about-me {
+    .about-me {
       margin: 150px 0; } }
   @media (max-width: 992px) {
-    .fh5co-about-me {
+    .about-me {
       margin: 125px 0; } }
 
 .about-me-bckg {
@@ -384,21 +384,21 @@
 .slick-slide:focus {
   outline: none; }
 
-.fh5co-books {
+.my-books {
   margin-bottom: 122px; }
-  .fh5co-books .universal-h2 {
+  .my-books .universal-h2 {
     margin-bottom: 50px;
     padding-bottom: 20px; }
-  .fh5co-books .books-brand-button {
+  .my-books .books-brand-button {
     text-align: center; }
-    .fh5co-books .books-brand-button .brand-button {
+    .my-books .books-brand-button .brand-button {
       font-size: 16px;
       text-transform: none;
       border-color: #c18f59; }
-      .fh5co-books .books-brand-button .brand-button:hover {
+      .my-books .books-brand-button .brand-button:hover {
         border-color: #777; }
   @media (max-width: 1250px) {
-    .fh5co-books {
+    .my-books {
       margin-bottom: 60px; } }
 
 .books {
@@ -462,14 +462,14 @@
     content: "\2605";
     position: absolute; }
 
-.fh5co-counter {
+.my-counter {
   position: relative;
   margin-bottom: 122px;
   padding: 100px 0;
   background-image: url("../images/book-bckg.jpg");
   background-size: cover;
   background-position: center; }
-  .fh5co-counter::after {
+  .my-counter::after {
     content: '';
     position: absolute;
     top: 0;
@@ -478,11 +478,11 @@
     height: 100%;
     background-color: #c18f59;
     opacity: 0.9; }
-  .fh5co-counter .site-container {
+  .my-counter .site-container {
     position: relative;
     z-index: 1; }
   @media (max-width: 850px) {
-    .fh5co-counter {
+    .my-counter {
       padding: 50px 0 20px;
       margin-bottom: 50px; } }
 
@@ -522,13 +522,13 @@
   .single-count__text img {
     margin-right: 20px; }
 
-.fh5co-blog {
+.my-blogs {
   margin-bottom: 175px; }
-  .fh5co-blog .universal-h2 {
+  .my-blogs .universal-h2 {
     margin-bottom: 55px;
     padding-bottom: 20px; }
   @media (max-width: 620px) {
-    .fh5co-blog {
+    .my-blogs {
       margin-bottom: 105px; } }
 
 .blog-inner {
@@ -617,14 +617,14 @@
     color: #777;
     border-color: #777; }
 
-.fh5co-quotes {
+.my-quotes {
   position: relative;
   padding: 135px 0 172px;
   text-align: center;
   background-image: url("../images/quotes-bckg.jpg");
   background-position: center;
   background-size: cover; }
-  .fh5co-quotes::after {
+  .my-quotes::after {
     content: '';
     position: absolute;
     top: 0;
@@ -633,53 +633,53 @@
     height: 100%;
     background-color: #000;
     opacity: 0.9; }
-  .fh5co-quotes .site-container {
+  .my-quotes .site-container {
     position: relative;
     z-index: 1; }
-  .fh5co-quotes .universal-h2 {
+  .my-quotes .universal-h2 {
     padding-bottom: 20px;
     margin-bottom: 30px;
     color: #fff !important; }
-  .fh5co-quotes p {
+  .my-quotes p {
     width: 43%;
     margin: 0 auto 45px;
     color: #fff;
     line-height: 24px; }
     @media (max-width: 620px) {
-      .fh5co-quotes p {
+      .my-quotes p {
         font-size: 14px;
         line-height: 19px; } }
-  .fh5co-quotes img {
+  .my-quotes img {
     margin: 0 auto 5px; }
-  .fh5co-quotes h4 {
+  .my-quotes h4 {
     margin-bottom: 5px;
     font-size: 25px;
     color: #c18f59; }
-  .fh5co-quotes .slick-arrow {
+  .my-quotes .slick-arrow {
     bottom: -8%; }
-  .fh5co-quotes .slick-prev {
+  .my-quotes .slick-prev {
     left: 45.5%; }
     @media (max-width: 1150px) {
-      .fh5co-quotes .slick-prev {
+      .my-quotes .slick-prev {
         left: 34%; } }
-  .fh5co-quotes .slick-next {
+  .my-quotes .slick-next {
     right: 45.5%; }
     @media (max-width: 1150px) {
-      .fh5co-quotes .slick-next {
+      .my-quotes .slick-next {
         right: 34%; } }
   @media (max-width: 1150px) {
-    .fh5co-quotes {
+    .my-quotes {
       padding: 75px 0 95px; }
-      .fh5co-quotes p {
+      .my-quotes p {
         width: 90%; } }
 
-.fh5co-social {
+.my-social {
   position: relative;
   padding: 63px 0;
   background-image: url("../images/social-bckg.jpg");
   background-size: cover;
   background-position: center; }
-  .fh5co-social::after {
+  .my-social::after {
     content: '';
     position: absolute;
     top: 0;
@@ -688,11 +688,11 @@
     height: 100%;
     background-color: #c18f59;
     opacity: 0.9; }
-  .fh5co-social .site-container {
+  .my-social .site-container {
     position: relative;
     z-index: 1; }
   @media (max-width: 620px) {
-    .fh5co-social {
+    .my-social {
       padding: 40px 0; } }
 
 .social {
