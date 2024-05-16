@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 	
-	/* Navigation burger onclick side navigation show */
+	/* Navigation burger */
 	$('.burger-container').on('click', function() {
 		$('.main-navigation').toggle('slow');
 
@@ -43,7 +43,7 @@ var counta = 0;
 $(window).scroll(function(e){
 
 
-	/* Onscroll number counter */
+	/* Onscroll */
 	var statisticNumbers = $('.single-count');
 	if(statisticNumbers.length) {
 		var oTop = statisticNumbers.offset().top - window.innerHeight;
